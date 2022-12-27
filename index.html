@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30a0c464ee.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!--llamo al header para crear divs,con las diferentes clases y una lista de los elemnetos-->
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <p class="logo">Hosting Company</p>
+                <img src="multimedia/menu.png" class="menu-icon" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="#homeini">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="">File Management</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Satisfaction Guaranteed</a></li>
+                    </ul>
+                        
+                </nav>
+            </div>
+        </div>
+<!--despues del div del menu, se creo otro con su respectivo contenedor-->
+            <div class="contenedor" id="homeini">
+                <div class="contenedor-inicio">
+                    <div class="titular">
+                        <h1>Premium Hosting Services</h1>
+                        <p>el hosting web es una de las tecnologías básicas de internet.
+                           Anteriormente, las empresas utilizaban sus propios servidores para el hosting web.
+                           Sin embargo, hoy en día los usuarios comerciales tienen cada vez más opciones para elegir modelos alternativos..</p>
+                           
+                          <a class="boton" href="">GET WEB HOSTING</a>
+                          <div class="imagen">
+                            <img src="multimedia/header.png" alt="">
+                          </div>
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+<!-- creo un main y en la clase dominio , creo un li con la etiqueta span,me permite crear elementos y editarlos ahi mismo-->
+    <main>
+        <div class="contenedor">
+            <ul class="dominios">
+                <li><span class="punto">.</span>
+                    <span class="dominio">com</span>
+                    <span class="anio">$8.99/yr</span></li>
+               
+                <li><span class="punto">.</span>
+                    <span class="dominio">net</span>
+                    <span class="anio">$8.99/yr</span></li>
+
+                <li><span class="punto">.</span>
+                    <span class="dominio">org</span>
+                    <span class="anio">$8.99/yr</span></li>
+
+                <li><span class="punto">.</span>
+                    <span class="dominio">gov</span>
+                    <span class="anio">$8.99/yr</span></li>
+            </ul>
+        </div>
+<!--creo una section adentro del main, dandole id, y h con un boton-->
+    <section id="services">
+        <div class="contenedor">
+             <div class="titular">   
+                <h2>OUR SERVICES</h2>
+                <h3>El servicio de hosting más utilizado es el Internet, que conecta dispositivos 
+                    como computadoras personales, servidores y estaciones de trabajo que transmiten datos a través de sitios 
+                    web, imágenes, textos y similares. </h3>
+                     <a class="boton" href="">ALL SERVICES</a>
+             </div>
+        
+            <div id="service-uno" class="service" style="margin-left:190px;">
+                <img src="multimedia/safe1.png" alt="">
+                <h4>SAFE & SECURE</h4>
+                <p> Además de ofrecer un sitio web que sea llamativo e informativo, 
+                    una compañía debería prestar atención a 4 conceptos que desempeñan un papel crucial 
+                    : diseño, contenido, rendimiento y seguridad</p>
+                   
+                    <a href="">CLICK HERE</a>
+                
+            </div>
+        </div>
+
+
+        <div class="contenedor contenedor-services-2">
+            <div class="service">
+                <img src="multimedia/safe1.png" alt="">
+                <h4>¿Cómo funciona el hosting?</h4>
+                <p>En lugar de alojar personas, el hosting web aloja los contenidos de tu web y tu correo electrónico
+                   para que puedan ser visitados en todo momento desde cualquier dispositivo conectado a Internet.
+                   Cuando quieres consultar un archivo en tu ordenador, ese contenido está almacenado en algún sitio,
+                   puede ser en el disco duro de tu equipo o un dispositivo de almacenamiento usb, por ejemplo.</p>
+                   
+                    <a href="">CLICK HERE</a>
+                
+            </div>
+            <div class="service" id="dos">
+                <img src="multimedia/safe1.png" alt="">
+                <h4>¿Qué tipos de alojamiento web existen?</h4>
+                <p>Alojamiento web compartido: En este caso el sitio web se almacena en un servidor en el que también hay otras webs. 
+                   
+                   Alojamiento VPS: En este caso también hay varios sitios web dentro de un mismo servidor, 
+                   pero cada uno de ellos cuenta con su propio espacio individual
+                   
+                   Alojamiento web dedicado:tienes un servidor en exclusiva para tu sitio web.
+                   No tienes que compartirlo con otros. Por lo tanto, la disponibilidad del espacio en disco es completa, 
+                   lo que se traduce en una mayor velocidad de carga.
+                </p>
+                   
+                    <a href="">CLICK HERE</a>
+                
+            </div>
+            <div class="service" id="service-cuatro">
+                <img src="multimedia/safe1.png" alt="">
+                <h4>Hosting HDD vs Hosting SSD</h4>
+                <p>Entre un hosting SSD un Hosting HDD existe una diferencia fundamental, la velocidad.
+                    Un disco tradicional utiliza un motor o un disco magnético para ejecutar la lectura 
+                    y procesamiento de datos, método similar al de un CD o DVD.
+
+                    Por otra parte, un disco SSD no tiene “partes móviles”, sino que funciona chips 
+                    interconectados de memoria sin mayor ruido ni generación de calor</p>
+                   
+                    <a href="">CLICK HERE</a>
+                
+            </div>
+        </div>  
+
+       
+    </section>
+ <!--Se crea una section nueva para precios -->
+    <section id="pricing">
+        <div class="contenedor">
+            <h2>Pricing</h2>
+                <h3>Web Hosting Plans & Pricing</h3>
+                <div class="contenedor-precios">
+                    <div class="tabla" id="one">
+                        <ul>
+                            <li>Shared Hosting</li>
+                            <li><span class="dolar">$</span><span 
+                                class="numero">3.99</span><span 
+                                class="mes">/Month</span></li>
+                            <hr>
+                            <li class="item"><span>25000 visits per Month</span></li>
+                            <li class="item">1 site</li>
+                            <li class="item">50 GB storage</li>
+                            <li class="item">256 GB Bandwidth/mo</li>
+                            <li class="item hidden">24/7 Support</li>
+                            <li class="item hidden">Unlimited Email Addresses</li>
+                        </ul>
+                        <a class="boton" href="#pricing">GET STARTED</a>
+                    </div>
+<!----------------------------------------------------------------------------------------->
+                    <div class="tabla" id="two">
+                        <ul>
+                            <li>Shared Hosting</li>
+                            <li><span class="dolar">$</span><span 
+                                class="numero">3.99</span><span 
+                                class="mes">/Month</span></li>
+                            <hr>
+                            <li class="item"><span>25000 visits per Month</span> </li>
+                            <li class="item">1 site</li>
+                            <li class="item">50 GB storage</li>
+                            <li class="item">256 GB Bandwidth/mo</li>
+                            <li class="item hidden">24/7 Support</li>
+                            <li class="item hidden">Unlimited Email Addresses</li>
+                        </ul>
+                        <a class="boton" href="#pricing">GET STARTED</a>
+                    </div>
+<!---------------------------------------------------------------------------------------->
+                    <div class="tabla" id="three">
+                        <ul>
+                            <li>Shared Hosting</li>
+                            <li><span class="dolar">$</span><span 
+                                class="numero">3.99</span><span 
+                                class="mes">/Month</span></li>
+                            <hr>
+                            <li class="item">25000 visits per Month</li>
+                            <li class="item">1 site</li>
+                            <li class="item">50 GB storage</li>
+                            <li class="item">256 GB Bandwidth/mo</li>
+                            <li class="item hidden">24/7 Support</li>
+                            <li class="item hidden">Unlimited Email Addresses</li>
+                        </ul>
+                        <a class="boton" href="#pricing">GET STARTED</a>
+                    </div>
+                </div">
+        </div>
+
+    </section>
+
+    <section>
+        <div id="file">
+            <div class="contenedor">
+                <div class="titular">
+                    <h2>FILE MANAGEMENT</h2>
+                    <h3>Safe and Secure Web Hosting & Backups</h3>
+                    
+                    <div class="iconos">
+                        <div class="item">
+                            <div class="icono">
+                                <img src="multimedia/management.jpg" alt="">
+                            </div>
+                            <div class="texto">
+                                <h4>Mauris dignissin vive</h4>
+                                <p>Donec sollicitudin molestia aleasuda.vivanus magnaa justo
+                                    consectetur sed, convalis at tellus, vivanus magna</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icono">
+                                <img src="multimedia/management.jpg" alt="">
+                            </div>
+                            <div class="texto">
+                                <h4>Mauris dignissin vive</h4>
+                                <p>Donec sollicitudin molestia aleasuda.vivanus magnaa justo
+                                    consectetur sed, convalis at tellus, vivanus magna</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="icono">
+                                <img src="multimedia/management.jpg" alt="">
+                            </div>
+                            <div class="texto">
+                                <h4>Mauris dignissin vive</h4>
+                                <p>Donec sollicitudin molestia aleasuda.vivanus magnaa justo
+                                    consectetur sed, convalis at tellus, vivanus magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            <div class="imagen">
+                <img src="multimedia/succes.jpg" alt="">
+                <a class="boton" href="#file">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="expert">
+        <div class="contenedor">
+            <h2>Talk With an Expert to get Started Today</h2>
+            <p>Quisque velit nisi,pretium ut lacinsa in,
+                elementum id enis, cras ultricies liguia
+                sed magna dictum porta,curabitur arcu erat,
+                acusan id imperdiet et, porttitor at sen.
+                cras ultricies liguia sed magna dictum porta</p>
+                <a class="boton" href="">LIVE CHAT</a>
+        </div>
+
+    </section>
+
+
+<section id="easy">
+    <div class="contenedor">
+        <div class="imagen"><img src="multimedia/easy.png" alt=""></div> 
+        <div class="titular">
+            <h2>Easy Setup</h2>
+            <h3>One Click Installs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis amet dolores deleniti,
+               officia laudantium obcaecati officiis nulla est ut quos voluptatibus quod cum consequatur praesentium nihil,
+               voluptatem blanditiis repellat optio?</p>
+               <div class="Lista">
+                <ul>
+                    <li><i class="fas fa-check"></i>
+                    <li>Mauris dignissim viverra mauris non laoreet</li>
+                </ul>
+
+                <ul>
+                    <li><i class="fas fa-check"></i>
+                    <li>Mauris dignissim viverra mauris non laoreet</li>
+                </ul>
+
+                <ul>
+                    <li><i class="fas fa-check"></i>
+                    <li>Mauris dignissim viverra mauris non laoreet</li>
+                </ul>
+
+                <ul>
+                    <li><i class="fas fa-check"></i>
+                    <li>Mauris dignissim viverra mauris non laoreet</li>
+                </ul>
+               </div>
+               <a class="boton" href="">ALL SERVICES</a>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <div class="contenedor">
+        <h2>WHAT THEY"RE SAYING</h2>
+        <H3>Customer Testimonials</H3>
+        <div class="contenedor-testimonials">
+           
+            <div class="testimonial">
+                <img src="multimedia/testimonial.png" alt="">
+                <p>Your content goes here.edit or remove this text inline or in the module
+                   content settings. You can also style every aspect of this content in the module 
+                   design settinds and even apply custom CSS to this text in the module advanced settings.
+                </p>
+                <p class="nombre">Jane Smith</p>
+                <p>Dev Lead, Divi Corner</p>
+            </div>
+
+            <div class="testimonial">
+                <img src="multimedia/testimonial.png" alt="">
+                <p>Your content goes here.edit or remove this text inline or in the module
+                   content settings. You can also style every aspect of this content in the module 
+                   design settinds and even apply custom CSS to this text in the module advanced settings.
+                </p>
+                <p class="nombre">Jane Smith</p>
+                <p>Dev Lead, Divi Corner</p>
+            </div>
+
+            <div class="testimonial">
+                <img src="multimedia/testimonial.png" alt="">
+                <p>Your content goes here.edit or remove this text inline or in the module
+                   content settings. You can also style every aspect of this content in the module 
+                   design settinds and even apply custom CSS to this text in the module advanced settings.
+                </p>
+                <p class="nombre">Jane Smith</p>
+                <p>Dev Lead, Divi Corner</p>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<section id="satisfaction">
+    <div class="contenedor">
+        <h3>Satisfaction Guaranteed</h3>
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta">
+                <h4>Award Winning Support</h4>
+                <p>Donec rutrum congue leo eget malesuada.
+                   Nulla porttitor accumsam tincidunt.
+                   nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie
+                </p>
+                <a class="boton" href="">CONTACT US</a>
+            </div>
+
+            <div class="tarjeta tarjeta-dos">
+                <h4>Award Winning Support</h4>
+                <p>Donec rutrum congue leo eget malesuada.
+                   Nulla porttitor accumsam tincidunt.
+                   nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie
+                </p>
+                <a class ="boton" href="">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="treinta">
+    <div class="contenedor">
+        <h2>30 Days of Free Hosting</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Vero quia laborum officiis qui excepturi commodi tenetur aliquid repellat quidem, 
+            rerum reprehenderit eveniet vel nobis vitae aut dicta aliquam ad unde?</p>
+            <a class="boton" href="" >LEARN HOW</a>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <div class="contenedor">
+            <div class="copy"><p>Designed by Michael Lopez | Powered by WordPress</p></div>
+            <div class="redes">
+                <ul >
+                    <a href="https://facebook.com"> <li><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://twitter.com"> <li><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://twitch.com"> <li><i class="fa-brands fa-twitch"></i> </a>
+                    <a href="https://instagram.com">  <li><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="https://youtube.com">  <li><i class="fa-brands fa-youtube"></i> </a>
+                    <a href="https://google.com"> <li><i class="fa-brands fa-google"></i> </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="popup">
+        <p>SUSCRIBITE PARA UN 10% DE DESCUENTO</p>
+        <form action="">
+            <input type="text"   placeholder="Email">
+            <input type="submit" value      ="SUSCRIBIRME">
+            <p class="cerrar">X</p>
+        </form>
+    </div>
+
+    <section id="tabs">
+        <div class="contenedor">
+            <div class="tabs-menu">
+                <ul>
+                    <li id="tab-uno">Hosting 1</li>
+                    <li id="tab-dos">Hosting 2</li>
+                    <li id="tab-tres">Hosting 3</li>
+                </ul>
+            </div>
+            <div class="tab" id="hosting-uno">
+                <h4>Hosting 1</h4>
+                <img src="multimedia/hosting1.jpg" alt="">
+                <p>lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="tab" id="hosting-dos">
+                <h4>Hosting 2</h4>
+                <img src="multimedia/hosting2.png" alt="">
+                <p>lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="tab" id="hosting-tres">
+                <h4>Hosting 3</h4>
+                <img src="multimedia/hosting3.png" alt="">
+                <p>lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
